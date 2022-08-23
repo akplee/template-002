@@ -98,4 +98,170 @@
   width: 180px;
   height: 180px;
   background-color: #F6421C;
+}
+.template-002 .about-001 {
+  padding: 60px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.template-002 .about-001 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 60px;
+}
+.template-002 .about-001 .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+.template-002 .about-001 .cards .card .rotated-img {
+  transform: rotate(45deg) translate(0px, -20px);
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.template-002 .about-001 .cards .card .rotated-img #square-img-001 {
+  display: block;
+  background-image: url("/imgs/marcos-paulo-prado-fu2iZ-0Kybw-unsplash.jpg");
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(-45deg) translate(0px, -15px);
+}
+.template-002 .about-001 .cards .card .rotated-img #square-img-002 {
+  display: block;
+  background-image: url("/imgs/toa-heftiba-Yo0R_swQjoA-unsplash.jpg");
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(-45deg) translate(0px, -15px);
+}
+.template-002 .about-001 .cards .card .rest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+.template-002 .about-001 .cards .card .rest h3 {
+  color: #1556F2;
+}
+.template-002 .about-001 .cards .card .rest ion-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.template-002 .companies {
+  padding: 60px 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.template-002 .companies .company {
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.template-002 .companies .company:nth-child(1) {
+  background-image: url("/imgs/ben-sweet-2LowviVHZ-E-unsplash.jpg");
+}
+.template-002 .companies .company:nth-child(2) {
+  background-image: url("/imgs/chris-kursikowski-ze5wHM9kplc-unsplash.jpg");
+}
+.template-002 .companies .company:nth-child(3) {
+  background-image: url("/imgs/doruk-bayram-gs3duh5iqkw-unsplash.jpg");
+}
+.template-002 .companies .company:nth-child(4) {
+  background-image: url("/imgs/marcos-paulo-prado-fu2iZ-0Kybw-unsplash.jpg");
+}
+.template-002 .companies .company:nth-child(5) {
+  background-image: url("/imgs/moritz-mentges-5MlBMYDsGBY-unsplash.jpg");
+}
+.template-002 .companies .company:nth-child(6) {
+  background-image: url("/imgs/samuel-regan-asante-g4F_ubfTKbU-unsplash.jpg");
+}
+.template-002 .companies .company:nth-child(7) {
+  background-image: url("/imgs/sunder-muthukumaran-fd6K_OFlnRA-unsplash.jpg");
+}
+.template-002 .plans {
+  padding: 60px 35px;
+  background-color: #1556F2;
+}
+.template-002 .plans .plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.template-002 .plans .plan .board {
+  width: 100%;
+}
+.template-002 .plans .plan .board .tag {
+  background-color: #F6421C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+  color: #fff;
+}
+.template-002 .plans .plan .board .tag h1 {
+  margin-top: 10px;
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+.template-002 .plans .plan .board .plan-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+  background-color: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.template-002 .plans .plan .board .plan-menu .feautures ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.template-002 .plans .plan .board .plan-menu .feautures ul li {
+  margin-top: 10px;
+}
+.template-002 .plans .plan .board .plan-menu .feautures button {
+  margin-top: 20px;
+  background-color: #FBB2A2;
+  border: none;
+  border-radius: 7px;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.template-002 .plans .plan .board .plan-menu .feautures button p {
+  font-weight: 700;
+}
+.template-002 .plans .plan h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
 }/*# sourceMappingURL=style.css.map */
