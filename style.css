@@ -6,28 +6,35 @@
   box-sizing: border-box;
 }
 
-.template-002 .hero {
+.template-002 p {
+  font-size: 1.1rem;
+}
+.template-002 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.template-002 .section-1 {
   height: 100vh;
   width: 100%;
 }
-.template-002 .hero .menu {
+.template-002 .section-1 .menu {
   height: 8%;
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.template-002 .hero .menu .burger {
+.template-002 .section-1 .menu .burger {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.template-002 .hero .menu .burger span {
+.template-002 .section-1 .menu .burger span {
   width: 30px;
   height: 3px;
   background-color: #333;
 }
-.template-002 .hero .menu .burger span::before {
+.template-002 .section-1 .menu .burger span::before {
   content: "";
   position: absolute;
   transform: translateY(-8px);
@@ -35,7 +42,7 @@
   height: 3px;
   background-color: #333;
 }
-.template-002 .hero .menu .burger span::after {
+.template-002 .section-1 .menu .burger span::after {
   content: "";
   position: absolute;
   transform: translateY(8px);
@@ -43,7 +50,7 @@
   height: 3px;
   background-color: #333;
 }
-.template-002 .hero .rest {
+.template-002 .section-1 .rest {
   background-color: #1556F2;
   width: 100%;
   height: 92%;
@@ -52,7 +59,7 @@
   align-items: center;
   flex-direction: column;
 }
-.template-002 .hero .rest .title {
+.template-002 .section-1 .rest .title {
   height: 60%;
   padding: 35px;
   display: flex;
@@ -62,18 +69,18 @@
   gap: 30px;
   color: #fff;
 }
-.template-002 .hero .rest .title h1 {
+.template-002 .section-1 .rest .title h1 {
   font-size: 3rem;
   font-weight: 800;
 }
-.template-002 .hero .rest .title h1::after {
+.template-002 .section-1 .rest .title h1::after {
   content: ".";
   color: #F6421C;
 }
-.template-002 .hero .rest .title p {
+.template-002 .section-1 .rest .title p {
   font-family: "Open Sans";
 }
-.template-002 .hero .rest .title button {
+.template-002 .section-1 .rest .title button {
   font-family: "Open Sans";
   color: #333;
   background-color: #fff;
@@ -83,14 +90,14 @@
   border: none;
   border-radius: 25px;
 }
-.template-002 .hero .rest .figures span {
+.template-002 .section-1 .rest .figures span {
   display: block;
   width: 180px;
   height: 180px;
   background-color: #fff;
   transform: rotate(45deg) translate(-75px, -75px);
 }
-.template-002 .hero .rest .figures span::before {
+.template-002 .section-1 .rest .figures span::before {
   content: "";
   position: absolute;
   top: 30px;
@@ -99,34 +106,34 @@
   height: 180px;
   background-color: #F6421C;
 }
-.template-002 .about-001 {
+.template-002 .section-2 {
   padding: 60px 35px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
-.template-002 .about-001 h1 {
+.template-002 .section-2 h1 {
   font-size: 3rem;
   font-weight: 800;
   color: #333;
   margin-bottom: 60px;
 }
-.template-002 .about-001 .cards {
+.template-002 .section-2 .cards {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   gap: 50px;
 }
-.template-002 .about-001 .cards .card .rotated-img {
+.template-002 .section-2 .cards .card .rotated-img {
   transform: rotate(45deg) translate(0px, -20px);
   overflow: hidden;
   width: 60px;
   height: 60px;
   border-radius: 10px;
 }
-.template-002 .about-001 .cards .card .rotated-img #square-img-001 {
+.template-002 .section-2 .cards .card .rotated-img #square-img-001 {
   display: block;
   background-image: url("/imgs/marcos-paulo-prado-fu2iZ-0Kybw-unsplash.jpg");
   width: 80px;
@@ -135,7 +142,7 @@
   background-size: cover;
   transform: rotate(-45deg) translate(0px, -15px);
 }
-.template-002 .about-001 .cards .card .rotated-img #square-img-002 {
+.template-002 .section-2 .cards .card .rotated-img #square-img-002 {
   display: block;
   background-image: url("/imgs/toa-heftiba-Yo0R_swQjoA-unsplash.jpg");
   width: 80px;
@@ -144,21 +151,21 @@
   background-size: cover;
   transform: rotate(-45deg) translate(0px, -15px);
 }
-.template-002 .about-001 .cards .card .rest {
+.template-002 .section-2 .cards .card .rest {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   gap: 15px;
 }
-.template-002 .about-001 .cards .card .rest h3 {
+.template-002 .section-2 .cards .card .rest h3 {
   color: #1556F2;
 }
-.template-002 .about-001 .cards .card .rest ion-icon {
+.template-002 .section-2 .cards .card .rest ion-icon {
   font-size: 2rem;
   cursor: pointer;
 }
-.template-002 .companies {
+.template-002 .section-3 {
   padding: 60px 35px;
   display: flex;
   justify-content: space-around;
@@ -166,7 +173,7 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-.template-002 .companies .company {
+.template-002 .section-3 .company {
   display: block;
   width: 120px;
   height: 120px;
@@ -174,42 +181,42 @@
   background-size: cover;
   border-radius: 10px;
 }
-.template-002 .companies .company:nth-child(1) {
+.template-002 .section-3 .company:nth-child(1) {
   background-image: url("/imgs/ben-sweet-2LowviVHZ-E-unsplash.jpg");
 }
-.template-002 .companies .company:nth-child(2) {
+.template-002 .section-3 .company:nth-child(2) {
   background-image: url("/imgs/chris-kursikowski-ze5wHM9kplc-unsplash.jpg");
 }
-.template-002 .companies .company:nth-child(3) {
+.template-002 .section-3 .company:nth-child(3) {
   background-image: url("/imgs/doruk-bayram-gs3duh5iqkw-unsplash.jpg");
 }
-.template-002 .companies .company:nth-child(4) {
+.template-002 .section-3 .company:nth-child(4) {
   background-image: url("/imgs/marcos-paulo-prado-fu2iZ-0Kybw-unsplash.jpg");
 }
-.template-002 .companies .company:nth-child(5) {
+.template-002 .section-3 .company:nth-child(5) {
   background-image: url("/imgs/moritz-mentges-5MlBMYDsGBY-unsplash.jpg");
 }
-.template-002 .companies .company:nth-child(6) {
+.template-002 .section-3 .company:nth-child(6) {
   background-image: url("/imgs/samuel-regan-asante-g4F_ubfTKbU-unsplash.jpg");
 }
-.template-002 .companies .company:nth-child(7) {
+.template-002 .section-3 .company:nth-child(7) {
   background-image: url("/imgs/sunder-muthukumaran-fd6K_OFlnRA-unsplash.jpg");
 }
-.template-002 .plans {
+.template-002 .section-4 {
   padding: 60px 35px;
   background-color: #1556F2;
 }
-.template-002 .plans .plan {
+.template-002 .section-4 .plan {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 30px;
 }
-.template-002 .plans .plan .board {
+.template-002 .section-4 .plan .board {
   width: 100%;
 }
-.template-002 .plans .plan .board .tag {
+.template-002 .section-4 .plan .board .tag {
   background-color: #F6421C;
   display: flex;
   flex-direction: column;
@@ -219,12 +226,12 @@
   gap: 10px;
   color: #fff;
 }
-.template-002 .plans .plan .board .tag h1 {
+.template-002 .section-4 .plan .board .tag h1 {
   margin-top: 10px;
   font-size: 4.5rem;
   font-weight: 800;
 }
-.template-002 .plans .plan .board .plan-menu {
+.template-002 .section-4 .plan .board .plan-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -235,17 +242,17 @@
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-.template-002 .plans .plan .board .plan-menu .feautures ul {
+.template-002 .section-4 .plan .board .plan-menu .feautures ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.template-002 .plans .plan .board .plan-menu .feautures ul li {
+.template-002 .section-4 .plan .board .plan-menu .feautures ul li {
   margin-top: 10px;
 }
-.template-002 .plans .plan .board .plan-menu .feautures button {
+.template-002 .section-4 .plan .board .plan-menu .feautures button {
   margin-top: 20px;
   background-color: #FBB2A2;
   border: none;
@@ -256,12 +263,118 @@
   align-items: center;
   gap: 5px;
 }
-.template-002 .plans .plan .board .plan-menu .feautures button p {
+.template-002 .section-4 .plan .board .plan-menu .feautures button p {
   font-weight: 700;
 }
-.template-002 .plans .plan h1 {
+.template-002 .section-4 .plan h1 {
   text-transform: uppercase;
   color: #fff;
   font-size: 3rem;
   font-weight: 800;
+}
+.template-002 .section-5 .images {
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.template-002 .section-5 .images .img {
+  width: 200px;
+  height: 200px;
+  transform-origin: 50% 50%;
+  transform: rotate(45deg);
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.template-002 .section-5 .images .img::before {
+  content: "";
+  position: relative;
+  transform-origin: 50% 50%;
+  transform: rotate(-45deg) translateY(-60px);
+  display: block;
+  width: 280px;
+  height: 280px;
+  background-position: center;
+  background-size: cover;
+}
+.template-002 .section-5 .images .img:nth-child(1)::before {
+  background-image: url("/imgs/ben-sweet-2LowviVHZ-E-unsplash.jpg");
+}
+.template-002 .section-5 .images .img:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  transform: rotate(-45deg) translate(100px, 100px);
+}
+.template-002 .section-5 .images .img:nth-child(2)::before {
+  transform: rotate(45deg) translate(-25px, -5px);
+  width: 140px;
+  height: 140px;
+  background-image: url("/imgs/chris-kursikowski-ze5wHM9kplc-unsplash.jpg");
+}
+.template-002 .section-5 .images .img:nth-child(3)::before {
+  background-image: url("/imgs/doruk-bayram-gs3duh5iqkw-unsplash.jpg");
+}
+.template-002 .section-5 .text {
+  padding: 60px 35px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.template-002 .section-6 {
+  background-color: #1556F2;
+  padding: 60px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+.template-002 .section-6 .img {
+  width: 200px;
+  height: 200px;
+  transform-origin: 50% 50%;
+  transform: rotate(45deg);
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  margin-bottom: 60px;
+}
+.template-002 .section-6 .img::before {
+  content: "";
+  position: relative;
+  transform-origin: 50% 50%;
+  transform: rotate(-45deg) translateY(-60px);
+  display: block;
+  width: 280px;
+  height: 280px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/imgs/samuel-regan-asante-g4F_ubfTKbU-unsplash.jpg");
+}
+.template-002 .section-6 ol {
+  margin-top: 20px;
+  list-style-position: inside;
+  list-style: none;
+  counter-reset: counter;
+}
+.template-002 .section-6 ol li {
+  counter-increment: counter;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+.template-002 .section-6 ol li::before {
+  content: "0" counter(counter) ".  ";
+  color: #fff;
+  font-weight: 700;
+  font-weight: bold;
+}
+.template-002 .section-6 ol li:nth-child(n+11):before {
+  content: counter(counter) ".  ";
 }/*# sourceMappingURL=style.css.map */

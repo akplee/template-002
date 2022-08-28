@@ -9,8 +9,16 @@
 
 .template-002{
 
+    p{
+        font-size: 1.1rem;
+    }
 
-    .hero{
+    h1{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .section-1{
         height: 100vh;
         width: 100%;
 
@@ -121,7 +129,7 @@
         }
     }
 
-    .about-001{
+    .section-2{
         padding: 60px 35px;
         display: flex;
         flex-direction: column;
@@ -196,7 +204,7 @@
         }
     }
 
-    .companies{
+    .section-3{
         padding: 60px 35px;
         display: flex;
         justify-content: space-around;
@@ -236,7 +244,7 @@
         }
     }
 
-    .plans{
+    .section-4{
         padding: 60px 35px;
         background-color: #1556F2;
 
@@ -329,6 +337,129 @@
                 color: #fff;
                 font-size: 3rem;
                 font-weight: 800;
+            }
+        }
+    }
+
+    .section-5{
+    
+
+        .images{
+            padding: 70px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .img{
+                width: 200px;
+                height: 200px;
+                transform-origin: 50% 50%;
+                transform: rotate(45deg);
+                overflow: hidden;
+                border-radius: 30px;
+                box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+            }
+
+            .img::before{
+                content: '';
+                position: relative;
+                transform-origin: 50% 50%;
+                transform: rotate(-45deg) translateY(-60px);
+                display: block;
+                width: 280px;
+                height: 280px;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .img:nth-child(1)::before{
+                background-image: url('/imgs/ben-sweet-2LowviVHZ-E-unsplash.jpg');
+            }
+
+            .img:nth-child(2){
+                width: 100px;
+                height: 100px;
+                border-radius: 15px;
+                transform: rotate(-45deg) translate(100px, 100px);
+            }
+
+            .img:nth-child(2)::before{
+                transform: rotate(45deg) translate(-25px, -5px);
+                width: 140px;
+                height: 140px;
+                background-image: url('/imgs/chris-kursikowski-ze5wHM9kplc-unsplash.jpg');
+            }
+
+            .img:nth-child(3)::before{
+                background-image: url('/imgs/doruk-bayram-gs3duh5iqkw-unsplash.jpg');
+            }
+        }
+
+        .text{
+            padding: 60px 35px;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+
+    .section-6{
+        background-color: #1556F2;
+        padding: 60px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        color: #fff;
+
+
+        .img{
+            width: 200px;
+            height: 200px;
+            transform-origin: 50% 50%;
+            transform: rotate(45deg);
+            overflow: hidden;
+            border-radius: 30px;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+            margin-bottom: 60px;
+        }
+
+        .img::before{
+            content: '';
+            position: relative;
+            transform-origin: 50% 50%;
+            transform: rotate(-45deg) translateY(-60px);
+            display: block;
+            width: 280px;
+            height: 280px;
+            background-position: center;
+            background-size: cover;
+            background-image: url('/imgs/samuel-regan-asante-g4F_ubfTKbU-unsplash.jpg');
+        }
+        
+        ol{
+            margin-top: 20px;
+            list-style-position: inside;
+            list-style: none;
+            counter-reset: counter;
+            li{
+                counter-increment: counter;
+                margin-top: 20px;
+                font-size: 1.3rem;
+            }
+            li::before{
+                content: '0' counter(counter) ".  ";
+                color: #fff;
+                font-weight: 700;
+                font-weight: bold;
+            }
+            li:nth-child(n+11):before {
+                content: counter(counter)".  ";
             }
         }
     }
