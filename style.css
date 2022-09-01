@@ -306,7 +306,7 @@
   width: 100px;
   height: 100px;
   border-radius: 15px;
-  transform: rotate(-45deg) translate(100px, 100px);
+  transform: rotate(-45deg) translate(80px, 80px);
 }
 .template-002 .section-5 .images .img:nth-child(2)::before {
   transform: rotate(45deg) translate(-25px, -5px);
@@ -377,4 +377,61 @@
 }
 .template-002 .section-6 ol li:nth-child(n+11):before {
   content: counter(counter) ".  ";
+}
+.template-002 .section-7 {
+  padding: 60px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.template-002 .section-7 h1 {
+  width: 100%;
+  font-size: 4rem;
+}
+.template-002 .section-7 .img {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  transform-origin: 50% 50%;
+  transform: rotate(45deg);
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  margin-bottom: 60px;
+}
+.template-002 .section-7 .img::before {
+  content: "";
+  position: relative;
+  transform-origin: 50% 50%;
+  transform: rotate(-45deg) translateY(-60px);
+  display: block;
+  width: 280px;
+  height: 280px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/imgs/toa-heftiba-Yo0R_swQjoA-unsplash.jpg");
+}
+.template-002 .section-8 {
+  padding: 60px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #f2f2f2;
+}
+.template-002 .section-8 button {
+  background-color: #1556F2;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 15px 40px;
+  transition: 0.3s;
+}
+.template-002 .section-8 button:hover {
+  background-color: #F6421C;
 }/*# sourceMappingURL=style.css.map */
