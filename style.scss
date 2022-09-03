@@ -496,10 +496,6 @@
         gap: 20px;
         background-color: #f2f2f2;
 
-        h1{
-
-        }
-
         button{
             background-color: #1556F2;
             border: none;
@@ -512,6 +508,92 @@
         }
         button:hover{
             background-color: #F6421C;
+        }
+    }
+
+    .section-9{
+        width: 100%;
+        padding: 60px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #1556F2;
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items: center;
+            height: 100%;
+
+            .icon{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                text-align: start;
+
+                ion-icon{
+                    color: #fff;
+                    font-size: 4rem;
+                }
+            }
+
+            h3{
+                color: #fff;
+                margin-top: 20px;
+            }
+
+            .figures{
+                margin-top: 180px;
+
+                span{
+                    display: block;
+                    width: 180px;
+                    height: 180px;
+                    background-color: #fff;
+                    transform: rotate(45deg) translate(-75px,-75px);
+                }
+    
+                span::before{
+                    content: '';
+                    position: absolute;
+                    top: 30px;
+                    left: 30px;
+                    width: 180px;
+                    height: 180px;
+                    background-color: #F6421C;
+                }
+            }
+        }
+        
+
+    }
+
+    .section-10{
+        padding: 60px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        background-color: #F6421C;
+
+        img{
+            width: 100%;
+            margin-bottom: 20px;
+            margin-top: -40px;
+        }
+
+        .text{
+            color: #fff;
+            width: 100%;
+            text-align: left;
+
+            .thin-text{
+                font-weight: 300;
+            }
         }
     }
 }
