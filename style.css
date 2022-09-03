@@ -8,6 +8,7 @@
 
 .template-002 p {
   font-size: 1.1rem;
+  font-family: "Open Sans";
 }
 .template-002 h1 {
   font-size: 3rem;
@@ -69,16 +70,9 @@
   gap: 30px;
   color: #fff;
 }
-.template-002 .section-1 .rest .title h1 {
-  font-size: 3rem;
-  font-weight: 800;
-}
 .template-002 .section-1 .rest .title h1::after {
   content: ".";
   color: #F6421C;
-}
-.template-002 .section-1 .rest .title p {
-  font-family: "Open Sans";
 }
 .template-002 .section-1 .rest .title button {
   font-family: "Open Sans";
@@ -114,8 +108,6 @@
   align-items: flex-start;
 }
 .template-002 .section-2 h1 {
-  font-size: 3rem;
-  font-weight: 800;
   color: #333;
   margin-bottom: 60px;
 }
@@ -269,8 +261,6 @@
 .template-002 .section-4 .plan h1 {
   text-transform: uppercase;
   color: #fff;
-  font-size: 3rem;
-  font-weight: 800;
 }
 .template-002 .section-5 .images {
   padding: 70px 0px;
@@ -506,4 +496,97 @@
 }
 .template-002 .section-10 .text .thin-text {
   font-weight: 300;
+}
+
+@media only screen and (min-width: 1520px) {
+  .template-002 h1 {
+    font-size: 5rem;
+  }
+  .template-002 .section-1 .rest {
+    padding: 0 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .template-002 .section-1 .rest .title {
+    width: 50%;
+  }
+  .template-002 .section-1 .rest .figures {
+    transform: translate(-120px, 150px) scale(1.2);
+  }
+  .template-002 .section-2 {
+    padding: 5% 20%;
+  }
+  .template-002 .section-2 .cards .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .template-002 .section-2 .cards .card .rotated-img {
+    transform: scale(2) translate(-40px, 0) rotate(45deg);
+  }
+  .template-002 .section-2 .cards .card .rest {
+    width: 50%;
+  }
+  .template-002 .section-3 {
+    padding: 5% 20%;
+    flex-wrap: nowrap;
+  }
+  .template-002 .section-4 {
+    padding: 5% 20%;
+  }
+  .template-002 .section-4 .plan {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .template-002 .section-4 .plan .board {
+    width: 550px;
+  }
+  .template-002 .section-5 {
+    padding: 5% 20%;
+  }
+  .template-002 .section-5 .images {
+    padding: 0;
+    display: block;
+  }
+  .template-002 .section-5 .images .img:nth-child(1) {
+    transform: translate(100px, 0) rotate(45deg) scale(1.1);
+  }
+  .template-002 .section-5 .images .img:nth-child(2) {
+    transform: translate(420px, -200px) rotate(-45deg) scale(1.1);
+  }
+  .template-002 .section-5 .images .img:nth-child(3) {
+    transform: translate(590px, -200px) rotate(45deg) scale(1.5);
+  }
+  .template-002 .section-5 .text {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    width: 30%;
+    transform: translate(50px, -200px);
+  }
+  .template-002 .section-6 {
+    padding: 5% 20%;
+    align-items: flex-start;
+  }
+  .template-002 .section-6 .img {
+    transform: translateX(35px) rotate(45deg);
+  }
+  .template-002 .section-6 h3 {
+    width: 60%;
+  }
+  .template-002 .section-6 ol {
+    padding: 0;
+    -moz-columns: 2;
+         columns: 2;
+  }
+  .template-002 .section-6 ol li {
+    margin-top: 0;
+    line-height: 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

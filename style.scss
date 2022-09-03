@@ -11,6 +11,7 @@
 
     p{
         font-size: 1.1rem;
+        font-family: 'Open Sans';
     }
 
     h1{
@@ -78,19 +79,10 @@
                 flex-direction: column;
                 gap: 30px;
                 color: #fff;
-
-                h1{
-                    font-size: 3rem;
-                    font-weight: 800;
-                }
                 
                 h1::after{
                     content: '.';
                     color: #F6421C;
-                }
-
-                p{
-                    font-family: 'Open Sans';
                 }
 
                 button{
@@ -137,8 +129,6 @@
         align-items: flex-start;
 
         h1{
-            font-size: 3rem;
-            font-weight: 800;
             color: #333;
             margin-bottom: 60px;
         }
@@ -254,7 +244,6 @@
             .board{
                 width: 100%;
 
-
                 .tag{
                     background-color: #F6421C;
                     display: flex;
@@ -319,8 +308,6 @@
             h1{
                 text-transform: uppercase;
                 color: #fff;
-                font-size: 3rem;
-                font-weight: 800;
             }
         }
     }
@@ -593,6 +580,127 @@
 
             .thin-text{
                 font-weight: 300;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1520px){
+    .template-002{
+
+        h1{
+            font-size: 5rem;
+        }
+
+        .section-1{
+            
+            .rest{
+                padding: 0 20%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .title{
+                    width: 50%;
+                }
+
+                .figures{
+                    transform: translate(-120px,150px) scale(1.2);
+                }
+            }
+        }
+
+        .section-2{
+            padding: 5% 20%;
+
+            .cards{
+
+                .card{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .rotated-img{
+                        transform: scale(2) translate(-40px, 0) rotate(45deg);
+                    }
+
+                    .rest{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+
+        .section-3{
+            padding: 5% 20%;
+            flex-wrap: nowrap;
+        }
+
+        .section-4{
+            padding: 5% 20%;
+
+            .plan{
+                flex-direction: row-reverse;
+                align-items: center;
+
+                .board{
+                    width: 550px;
+                }
+            }
+        }
+
+        .section-5{
+            padding: 5% 20%;
+
+            .images{
+                padding: 0;
+                display: block;
+
+                .img:nth-child(1){
+                    transform: translate(100px,0) rotate(45deg) scale(1.1);
+                }
+                .img:nth-child(2){
+                    transform: translate(420px,-200px) rotate(-45deg) scale(1.1);
+                }
+                .img:nth-child(3){
+                    transform: translate(590px,-200px) rotate(45deg) scale(1.5);
+                }
+            }
+
+            .text{
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                gap: 40px;
+                position: absolute;
+                width: 30%;
+                transform: translate(50px, -200px);
+            }
+        }
+
+        .section-6{
+            padding: 5% 20%;
+            align-items: flex-start;
+
+            .img{
+                transform: translateX(35px) rotate(45deg);
+            }
+
+            h3{
+                width: 60%;
+            }
+
+            ol{
+                padding: 0;
+                columns: 2;
+
+                li{
+                    margin-top: 0;
+                    line-height: 3rem;
+                }
             }
         }
     }
