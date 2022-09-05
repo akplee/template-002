@@ -443,9 +443,11 @@
         align-items: center;
         gap: 20px;
 
-        h1{
-            width: 100%;
-            font-size: 4rem;
+        .text{
+            h1{
+                width: 100%;
+                font-size: 4rem;
+            }
         }
 
         .img{
@@ -658,13 +660,13 @@
                 display: block;
 
                 .img:nth-child(1){
-                    transform: translate(100px,0) rotate(45deg) scale(1.1);
+                    transform: translate(100px,0) rotate(45deg) scale(1.2);
                 }
                 .img:nth-child(2){
-                    transform: translate(420px,-200px) rotate(-45deg) scale(1.1);
+                    transform: translate(460px,-200px) rotate(-45deg) scale(1.1);
                 }
                 .img:nth-child(3){
-                    transform: translate(590px,-200px) rotate(45deg) scale(1.5);
+                    transform: translate(680px,-200px) rotate(45deg) scale(1.5);
                 }
             }
 
@@ -701,6 +703,67 @@
                     margin-top: 0;
                     line-height: 3rem;
                 }
+            }
+        }
+
+        .section-7{
+            padding: 5% 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .text{
+                width: 400px;
+                margin-top: 50px;
+            }
+
+            .img{
+                transform: translate(-100px,100px) scale(2) rotate(45deg);
+            }
+        }
+
+        .section-8{
+            padding: 5% 20%;
+            
+            h1{
+                width: 80%;
+            }
+        }
+
+        .section-9{
+            padding: 5% 20%;
+            height: 500px;
+            
+            .container{
+                align-items: flex-start;
+
+                h3{
+                    width: 50%;
+                }
+
+                .figures{
+                    position: relative;
+                    transform: translate(670px, -170px);
+                }
+            }
+
+            
+        }
+
+        .section-10{
+            padding: 5% 20%;
+            align-items: flex-start;
+            padding-top: 0;
+
+            img{
+                width: 350px;
+                margin-top: -180px;
+            }
+
+            h2{
+                font-size: 3rem;
+                font-weight: 800;
             }
         }
     }
